@@ -1,0 +1,31 @@
+# Игнорирование папки сборки
+/dist
+
+# Типовые файлы настроек для Node.js
+/node_modules
+/.rpt2_cache  # Кеш Rollup plugin typescript2
+
+# Логи и отладочная информация
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Игнорирование временных файлов редактора и IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Кэш файлов TypeScript
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
